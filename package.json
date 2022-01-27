@@ -1,0 +1,33 @@
+{
+    "name": "lordshiro.github.io",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "export": "npm run build && next export && type nul > out/.nojekyll",
+        "serve": "npm run export && serve out",
+        "deploy": "npm run export && node gh-pages.js"
+    },
+    "dependencies": {
+        "@mui/icons-material": "^5.2.0",
+        "@mui/lab": "^5.0.0-alpha.57",
+        "@mui/material": "^5.2.1",
+        "@mui/styles": "^5.2.1",
+        "@mui/x-data-grid": "^5.0.1",
+        "@react-pdf/renderer": "^2.0.21",
+        "@zeit/next-css": "^1.0.1",
+        "axios": "^0.24.0",
+        "babel-plugin-styled-components": "^2.0.2",
+        "moment": "^2.29.1",
+        "next": "^12.0.4",
+        "react": "^17.0.2",
+        "sass": "^1.43.5",
+        "serve": "^13.0.2"
+    },
+    "devDependencies": {
+        "eslint": "^8.6.0",
+        "gh-pages": "^3.2.3"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "..\\components\\Layout\\Layout.js -> ./Appbar": {
+    "id": 5213,
+    "files": [
+      "static/chunks/634-39a47cd7e0ac0b1a.js",
+      "static/chunks/515.db850cff40437bcc.js",
+      "static/chunks/213.633018c76523861b.js"
+    ]
+  },
+  "..\\components\\Layout\\Layout.js -> ./Copyright": {
+    "id": 8839,
+    "files": [
+      "static/chunks/839.7f1b399c8791ba9b.js"
+    ]
+  },
+  "..\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": 9651,
+    "files": [
+      "static/chunks/651.243d23442247d286.js"
+    ]
+  }
+}
