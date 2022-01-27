@@ -86,7 +86,7 @@ function ListItems() {
     children: /*#__PURE__*/jsx_runtime_.jsx(material_.List, {
       className: "linkListItem",
       children: /*#__PURE__*/jsx_runtime_.jsx(next_link["default"], {
-        href: "/test",
+        href: "/",
         children: /*#__PURE__*/jsx_runtime_.jsx("a", {
           style: {
             textDecoration: 'none'
